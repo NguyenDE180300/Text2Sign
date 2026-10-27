@@ -21,8 +21,8 @@
 #     -e NVIDIA_DRIVER_CAPABILITIES=compute,utility,graphics \
 #     -e PRETRAINED_MODEL=smpler_x_s32 \
 #     -v ./pretrained_models:/workspace/SMPLer-X/pretrained_models:ro \
-#     -v /home/duylearch/Documents/Text2Sign/dic_mp4/input_part_1:/videos:ro \
-#     -v /home/duylearch/output_smplerx:/output \
+#     -v /path/to/input_part_1:/videos:ro \
+#     -v /path/to/output_smplerx:/output \
 #     smplerx:latest \
 #     --videos_folder /videos \
 #     --demo_results_root /output \
