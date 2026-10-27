@@ -51,6 +51,9 @@ htmlcov/
 *.zip
 *.tar
 *.tar.gz
+!/assets/
+!/assets/demo/
+!/assets/demo/*.mp4
 Smpler_X/input_part_*/
 Smpler_X/input_mp4_full/
 Smpler_X/output_smplerx/

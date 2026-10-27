@@ -2,6 +2,12 @@
 
 > An experimental project for generating sign language animation from Vietnamese text. Existing components include dictionary-based tokenization, pose estimation with SMPLer-X, conversion of SMPL-X data to AMASS, retargeting to X-Bot FBX, and a web-based animation viewer.
 
+## Preview
+
+[![Sample sign animation](assets/demo/sign-animation.png)](assets/demo/sign-animation.mp4)
+
+Click the preview image to open the short sample render. The full video datasets, model weights, and generated outputs remain external project assets and are not included in this repository.
+
 > **Status:** This repository contains several experimental branches and local data. It is not yet a turnkey application: model weights, input videos, SMPL-X data, Blender, and other runtime components must be prepared separately. This guide describes the code and configuration currently present in the project tree.
 
 ## Components
