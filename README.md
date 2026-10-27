@@ -4,9 +4,11 @@
 
 ## Preview
 
-![Sample sign animation](assets/demo/sign-animation.gif)
+| Original input video | Rendered animation |
+|---|---|
+| [![Original signing video](assets/demo/source-action.gif)](assets/demo/source-action.mp4) | [![Rendered sign animation](assets/demo/sign-animation.gif)](assets/demo/sign-animation.mp4) |
 
-The [MP4 sample](assets/demo/sign-animation.mp4) is also available to download. The full video datasets, model weights, and generated outputs remain external project assets and are not included in this repository.
+The [original MP4](assets/demo/source-action.mp4) and [rendered MP4](assets/demo/sign-animation.mp4) are available to download. The original sample is the QIPEDC-branded `D0109N` input clip. The full video datasets, model weights, and generated outputs remain external project assets and are not included in this repository.
 
 > **Status:** This repository contains several experimental branches and local data. It is not yet a turnkey application: model weights, input videos, SMPL-X data, Blender, and other runtime components must be prepared separately. This guide describes the code and configuration currently present in the project tree.
 
